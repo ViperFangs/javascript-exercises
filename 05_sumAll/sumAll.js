@@ -1,6 +1,6 @@
 const sumAll = function(startValue, endValue) {
 
-    if(startValue < 0 || endValue <0 || !startValue.isNaN() || !endValue.isNaN()){
+    if(startValue < 0 || endValue <0){
         return 'ERROR'
     }
 
