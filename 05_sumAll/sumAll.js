@@ -1,14 +1,14 @@
 const sumAll = function(startValue, endValue) {
 
-    if(startValue < 0 || endValue <0){
-        return 'ERROR'
-    }
-
     if(startValue > endValue){
         let temp = 0;
         temp = startValue;
         startValue = endValue;
         endValue = temp;
+    }
+
+    if(startValue < 0 || endValue < 0 || !Number.isInteger(startValue) || !Number.isInteger(endValue)){
+        return 'ERROR'
     }
 
     let output = 0;
