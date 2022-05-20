@@ -19,6 +19,8 @@ const oldest = arrayOfPeople.sort((previousPerson, nextPerson) =>{
     return 1;
 })
 
+return oldest[0];
+
 };
 
 // Do not edit below this line
